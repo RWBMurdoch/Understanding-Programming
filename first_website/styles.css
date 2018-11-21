@@ -1,8 +1,8 @@
 body{
-  background-color: blue;
+  background-color: royalblue;
   font-family: sans-serif;
+  color: white;
 }
 .main {
-  width: 250px;
+  width: 300px;
   margin: 0 auto;
-}

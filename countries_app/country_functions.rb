@@ -1,3 +1,10 @@
+def population_density(country)
+  if (country['area']) && country['population']
+    density = country['population'] / country['area']
+  end
+  return density || 'No Data'
+end
+
 def name_of_first_country(countries)
   return countries[0]["name"]
 end
